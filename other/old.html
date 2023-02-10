@@ -1,0 +1,169 @@
+<!--Creating html document-->
+<!DOCTYPE html>
+<!--setting language to English-->
+<html lang="en">
+  <!--creating head element and placing page title, meta and styles link-->
+  <head>
+    <!--creating meta tag to receive and use info about the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Styles/myStyles.css" rel="stylesheet" type="text/css" />
+    <title>P&P</title>
+  </head>
+  <!--creating body element for the page content-->
+  <body>
+    <!--creating back to top anchor-->
+    <a id="top"></a>
+    <!--creating header with flex properties-->
+    <header class="flex">
+      <!--creating quote as per task 29-->
+      <!--using quote id to make h1 visible on dark background-->
+      <h1 id="quote">
+        <em
+          >“The first law of ecology is that <br />
+          everything is related to everything else.”
+          <br />
+          <br />
+          --Barry Commoner--</em
+        >
+      </h1>
+      <!--placing navigation menu that will link home page to other pages inside header-->
+      <nav>
+        <br />
+        <br />
+        <a class="a" href="./main.html">Home</a>
+        <a class="a" href="./credits.html">Credits</a>
+        <a class="a" href="./contacts.html">Contacts</a>
+      </nav>
+    </header>
+    <!--creating main content-->
+    <main>
+      <!--creating first block of text with background as per task 29-->
+      <div class="block">
+        <!--title to the block-->
+        <h1>Avert climate change with your very own fertile soil factory</h1>
+        <!--placing an image with caption-->
+        <!--assigning flex class to position image and text side by side-->
+        <div class="flex">
+          <figure>
+            <img
+              class="wasteimg"
+              src="./Images/pexels-sarah-chai-7262348.jpg"
+              alt="Food waste"
+            />
+          </figure>
+          <p class="blocktext">
+            <br />
+            <br />
+            According to the most recent report by the charity Waste and
+            Resources Action Programme (WRAP), the UK produced around 9.5
+            million tonnes of food waste in 2018 70% of which comes from
+            households.
+            <br />
+            <br />
+            WRAP estimated that this would be associated with more than 25
+            million tonnes of greenhouse gas emissions. All this waste has
+            another price tag. The nutrition sealed within toxic plastic bag
+            every single day has a potential of organic fertilizer.
+          </p>
+        </div>
+      </div>
+      <!--here goes table with 3 images and 3 links as per task 29-->
+      <h1>Potential of your Impact</h1>
+      <table>
+        <tr>
+          <th>
+            <img
+              class="tablogo"
+              alt="logo organic farming"
+              src="./Images/organic-flat-farming-profession_52683-58713.webp"
+            />
+          </th>
+          <th>
+            <img
+              class="tablogo"
+              alt="logo clean water"
+              src="./Images/11024.jpg"
+            />
+          </th>
+          <th>
+            <img
+              class="tablogo"
+              alt="Tiny people standing near Earth globe"
+              src="./Images/9814.jpg"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th class="column1">Every household trashcan holds a potential</th>
+          <th class="column2">By saving household waste from plastic bag</th>
+          <th class="column3">There has never been more urgent need to</th>
+        </tr>
+        <tr>
+          <th class="column1">
+            of highly effective organic fertilizer - a vital
+          </th>
+          <th class="column2">suffocation you are preventing your immediate</th>
+          <th class="column3">revive damaged ecosystems than now.</th>
+        </tr>
+        <tr>
+          <th class="column1">key to nutritious and affordable food</th>
+          <th class="column2">water sources from harmful contamination</th>
+          <th class="column3">We will only succeed if everyone plays a part</th>
+        </tr>
+        <tr>
+          <th>
+            <a
+              class="column1"
+              href="https://www.fao.org/sustainable-development-goals/goals/goal-2/en/"
+              >Learn more about food safety and security</a
+            >
+          </th>
+          <th>
+            <a
+              class="column2"
+              href="https://www.fao.org/sustainable-development-goals/goals/goal-6/en/"
+              >Learn more about sustainable water management</a
+            >
+          </th>
+          <th>
+            <a
+              class="column3"
+              href="https://www.fao.org/sustainable-development-goals/goals/goal-13/en/"
+              >Learn more about action to combat climate change</a
+            >
+          </th>
+        </tr>
+      </table>
+      <br />
+      <br />
+      <br />
+      <!--here goes radio buttons as per task 29-->
+      <div>
+        <h1>Are you ready for a change? <br />Pick your game:</h1>
+        <br />
+        <div class="radio">
+          <input type="radio" id="dirt" name="dirt" value="HTML" />
+          <label for="dirt"
+            >Dig in and get all the health and financial benefits playing with
+            dirt</label
+          >
+          <input type="radio" id="produce" name="produce" value="HTML" />
+          <label for="produce"
+            >Buy organic soil/produce from urban farmers
+          </label>
+          <input type="radio" id="pay" name="pay" value="HTML" />
+          <label for="pay">Support local waste managers</label>
+        </div>
+        <br />
+        <br />
+        <br />
+      </div>
+    </main>
+    <!--creating footer-->
+    <footer>
+      <!--a bit of empty space here-->
+      <br />
+      <p>(c) 2022 Olena Denisova</p>
+    </footer>
+  </body>
+</html>

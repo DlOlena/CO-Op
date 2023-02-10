@@ -1,0 +1,46 @@
+<!--Creating html document-->
+<!DOCTYPE html>
+<!--setting language to English-->
+<html lang="en">
+  <!--creating head element and placing page title, meta and styles link-->
+  <head>
+    <!--creating meta tag to receive and use info about the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Styles/myStyles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../Images/267733202_113096571224217_1847748095747980944_n.jpg"
+    />
+    <title>Chinley CO-OP</title>
+  </head>
+  <!--creating body element for the page content-->
+  <body onload="load()">
+    <!--creating back to top anchor-->
+    <a id="top"></a>
+    <!--creating header with flex properties-->
+    <header>
+      <img
+        class="headerimg"
+        alt="COOP LOGO"
+        src="../Images/267733202_113096571224217_1847748095747980944_n.jpg"
+      />
+      <nav>
+        <a class="a" href="./main.html">Home</a>
+        <a class="a" href="./basket.html">MyBasket</a>
+        <a class="a" href="./contact.html">Contacts</a>
+      </nav>
+    </header>
+    <!--creating main content-->
+    <main class="flex">
+      <div id="basket"></div>
+    </main>
+    <!--creating footer-->
+    <footer>
+      <!--a bit of empty space here-->
+      <br />
+      <p id="input">(c) 2022 Olena Denisova</p>
+    </footer>
+    <script type="text/javascript" src="../JS/basket2.js"></script>
+  </body>
+</html>

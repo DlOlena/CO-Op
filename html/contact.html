@@ -1,0 +1,82 @@
+<!--Creating html document-->
+<!DOCTYPE html>
+<!--setting language to English-->
+<html lang="en">
+  <!--creating head element and placing page title, meta and styles link-->
+  <head>
+    <!--creating meta tag to receive and use info about the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Styles/myStyles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../Images/267733202_113096571224217_1847748095747980944_n.jpg"
+    />
+    <title>Chinley CO-OP</title>
+  </head>
+  <!--creating body element for the page content-->
+  <body>
+    <!--creating back to top anchor-->
+    <a id="top"></a>
+    <!--creating header with flex properties-->
+    <header>
+      <img
+        class="headerimg"
+        alt="COOP LOGO"
+        src="../Images/267733202_113096571224217_1847748095747980944_n.jpg"
+      />
+      <nav>
+        <a class="a" href="./main.html">Home</a>
+        <a class="a" href="./basket.html">MyBasket</a>
+        <a class="a" href="./contact.html">Contacts</a>
+      </nav>
+    </header>
+    <!--creating main content-->
+    <main class="flex">
+      <!--creating form with submit button as per task 29-->
+
+      <form>
+        <h1>Contact us!</h1>
+        <label for="fname"></label><br />
+        <input
+          class="input"
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter your Name here:"
+        /><br /><br />
+        <label for="message"></label><br />
+        <input
+          class="message"
+          type="text"
+          id="message"
+          name="message"
+          placeholder="Your Message:"
+        /><br /><br />
+        <label for="email"></label><br />
+        <input
+          class="input"
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Your email to get a reply from us!"
+        />
+        <button onclick="contact(this)" class="send" type="button">Send</button>
+      </form>
+
+      <ul id="emaiList"></ul>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+    <!--creating footer-->
+    <footer>
+      <!--a bit of empty space here-->
+      <br />
+      <p>(c) 2022 Olena Denisova</p>
+    </footer>
+    <script type="text/javascript" src="../JS/contact.js"></script>
+  </body>
+</html>

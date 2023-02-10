@@ -1,0 +1,93 @@
+<!--Creating html document-->
+<!DOCTYPE html>
+<!--setting language to English-->
+<html lang="en">
+  <!--creating head element and placing page title, meta and styles link-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--creating meta tag to receive and use info about the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Styles/myStyles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../Images/267733202_113096571224217_1847748095747980944_n.jpg"
+    />
+    <title>Chinley CO-OP</title>
+  </head>
+  <!--creating body element for the page content-->
+  <body>
+    <!--creating back to top anchor-->
+    <a id="top"></a>
+    <!--creating header with flex properties-->
+    <header>
+      <img
+        class="headerimg"
+        alt="COOP LOGO"
+        src="../Images/267733202_113096571224217_1847748095747980944_n.jpg"
+      />
+      <nav>
+      <nav>
+        <a class="a" href="./main.html">Home</a>
+        <a class="a" href="./basket.html">MyBasket</a>
+        <a class="a" href="./contact.html">Contacts</a>
+      </nav>
+      </nav>
+    </header>
+    <!--creating main content-->
+    <main class="flex">
+      <!--creating form with send button as per task 29-->
+      <form id="input">
+        <img
+          class="menuimg"
+          src="../Images/clean/278576041_146882564512284_4749487173814827022_n.jpg"
+          alt="Glass bottle"
+        />
+          <input  class="input" type="text" title="review" name="review" placeholder="Tell us what you think">
+          <span class="heart" onclick="like(this, 'rgb(195, 38, 38)')">&#10084</span>
+          <button onclick="comment(this) "type="button" title="review">Submit a review</button>
+          <button type="button" title="buy" onclick="buy(this)" class="radio">£3.00</button>
+   
+      </form>
+
+      <form>
+        <img class="menuimg" src="../Images/clean/brush.jpg" alt="brush" />
+        <input  class="input" type="text" title="review" name="review" placeholder="Tell us what you think">
+          
+        <span class="heart" onclick="like(this, 'rgb(195, 38, 38)')">&#10084</span>
+          <button onclick="comment(this) "type="button" title="review">Submit a review</button>
+        <input onclick="buy(this)" class="radio" type="button" value="£2.50" /> 
+      </form>
+
+      <form>
+        <img
+          class="menuimg"
+          src="../Images/clean/scrub pad.jpg"
+          alt="scrub pad"
+        />
+         <input  class="input" type="text" title="review" name="review" placeholder="Tell us what you think">
+         <span class="heart" onclick="like(this, 'rgb(195, 38, 38)')">&#10084</span>
+         <button onclick="comment(this) "type="button" title="review">Submit a review</button>
+         <input onclick="buy(this)" class="radio" type="button" value="£1.00" />
+ 
+      </form>
+
+      <form>
+        <img class="menuimg" src="../Images/clean/tbrush.jpg" alt="t brush" />
+                
+          <input  class="input" type="text" title="review" name="review" placeholder="Tell us what you think">
+          <span class="heart" onclick="like(this, 'rgb(195, 38, 38)')">&#10084</span>
+          <button onclick="comment(this) "type="button" title="review">Submit a review</button>
+        <input onclick="buy(this)" class="radio" type="button" value="£5.00" /> 
+      </form>
+    </main>
+    <!--creating footer-->
+    <footer>
+      <!--a bit of empty space here-->
+      <br />
+      <p>(c) 2022 Olena Denisova</p>
+    </footer>
+    <script type="text/javascript" src="../JS/cleaning3.js"></script>
+  </body>
+</html>
+ 
